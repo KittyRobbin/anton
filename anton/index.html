@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loading Page</title>
+  <link rel="stylesheet" href="background_styles.css">
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Progress Bar</title>
 </head>
 <body>
-  <div class="loading-bar-container">
-    <div id="loading-bar"></div>
-    <div class="hearts">
-      <span class="heart"></span>
-      <span class="heart"></span>
-      <span class="heart"></span>
+  <div class="outer-container">
+    <div class="progress-container">
+      <div class="progress-bar" style="--width: 20" data-label="Loading..."></div>
+      <div class="hearts"></div>
     </div>
+    <a href="http://127.0.0.1:5500/client/secondindex.html"> <!-- Specify the destination URL here -->
+      <button id="action-button">click me</button>
+    </a>
   </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
