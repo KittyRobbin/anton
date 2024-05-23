@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">  
-  <title>Card</title>
+  <link rel="stylesheet" href="background_styles.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Progress Bar</title>
 </head>
 <body>
-  <div class="max-w-md mx-auto bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <img class="rounded-t-lg" src="https://i.pinimg.com/236x/40/d0/62/40d0625f74ac4f9e700d309caff3c88f.jpg"  alt="" />
-    </a>
-    <div class="p-5">
-        <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">MY MAN!MY MAN!MY MAN!🥰🥰</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Oh darling all of the city lights,never shine as bright as your eyes✨✨ ...I'd trade them all for a minute more...cause all of the small things that you do are what remind why I fell for you,and when we're apart and I'm missing you..I close my eyes and all I see is you and the small things you do 🫶🏻🫶🏻🫶</p>
+  <div class="outer-container">
+    <div class="progress-container">
+      <div class="progress-bar" style="--width: 20" data-label="Loading..."></div>
+      <div class="hearts"></div>
     </div>
-</div>
+    <a href="http://127.0.0.1:5502/secondindex.html#"> <!-- Specify the destination URL here -->
+      <button id="action-button">click me</button>
+    </a>
+  </div>
 </body>
 </html>
